@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ExamWindow</class>
+ <widget class="QMainWindow" name="ExamWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btnBack">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>490</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>返回主页面</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listExam">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>481</width>
+      <height>361</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnLast">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>120</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>上一题</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnNext">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>220</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>下一题</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSubmit">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>320</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>交 卷</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnConfirm">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>30</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>确 认</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="TextCorrect">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>420</y>
+      <width>481</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labIndex">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>4</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/new">
+        <file>res/English.txt</file>
+        <file>res/Chinese.txt</file>
+        <file>res/Math.txt</file>
+    </qresource>
+</RCC>

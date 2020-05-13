@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StudyDlg</class>
+ <widget class="QDialog" name="StudyDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>799</width>
+    <height>547</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QListWidget" name="listwidgetQues">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>521</width>
+     <height>331</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="EditCorret">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>410</y>
+     <width>521</width>
+     <height>91</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnLast">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>120</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>上一题</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnNext">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>250</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>下一题</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnBack">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>500</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回上一页</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labeIndex">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
